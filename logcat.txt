@@ -1,0 +1,288 @@
+﻿04-13 13:00:15.500 26127 26127 V SDL     : CONTROLLER nativeSetupJNI()
+04-13 13:00:15.512 26127 26127 D hidapi  : Initializing Bluetooth
+04-13 13:00:15.513 26127 26127 D hidapi  : Couldn't initialize Bluetooth, missing android.permission.BLUETOOTH
+04-13 13:00:15.524 26127 26127 V PythonActivity: Setting env vars for start.c and Python to use
+04-13 13:00:15.524 26127 26127 V PythonActivity: Access to our meta-data...
+04-13 13:00:15.526 26127 26127 I PythonActivity: Surface will NOT be transparent
+04-13 13:00:15.526 26127 26127 V PythonActivity: onResume()
+04-13 13:00:15.526 26127 26127 V SDL     : onResume()
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: QUALCOMM build                   : f2ab992, I401605978b
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Build Date                       : 09/28/19
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: OpenGL ES Shader Compiler Version: EV031.27.05.01
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Local Branch                     : 
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Remote Branch                    : 
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Remote Branch                    : 
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Reconstruct Branch               : 
+04-13 13:00:15.546 26127 26151 I AdrenoGLES: Build Config                     : S L 8.0.11 AArch64
+04-13 13:00:15.551 26127 26151 I AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+04-13 13:00:15.554 26127 26151 W AdrenoUtils: <ReadGpuID_from_sysfs:194>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+04-13 13:00:15.554 26127 26151 W AdrenoUtils: <ReadGpuID:218>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+04-13 13:00:15.554 26127 26127 V SDL     : surfaceCreated()
+04-13 13:00:15.554 26127 26127 V SDL     : surfaceChanged()
+04-13 13:00:15.554 26127 26127 V SDL     : pixel format RGB_565
+04-13 13:00:15.547 26127 26127 W RenderThread: type=1400 audit(0.0:70336): avc: denied { search } for name="kgsl-3d0" dev="sysfs" ino=31823 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_kgsl:s0 tclass=dir permissive=0
+04-13 13:00:15.555 26127 26127 V SDL     : Window size: 1080x2058
+04-13 13:00:15.555 26127 26127 V SDL     : Device size: 1080x2160
+04-13 13:00:15.556   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+04-13 13:00:15.558  1628  2193 I SensorService: check list, getPackageName  org.libsdl.app.SDLSurface
+04-13 13:00:15.558   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+04-13 13:00:15.561 26127 26127 V SDL     : nativeResume()
+04-13 13:00:15.562 26127 26159 V SDL     : Running main function SDL_main from library /data/app/org.test.myapp-A0rWs4Wc5adEnLSjNLuquw==/lib/arm64/libmain.so
+04-13 13:00:15.562 26127 26159 V PythonActivity: appConfirmedActive() -> preparing loading screen removal
+04-13 13:00:15.562 26127 26159 V SDL     : nativeRunMain()
+04-13 13:00:15.563 26127 26159 I python  : Initializing Python for Android
+04-13 13:00:15.563 26127 26159 I python  : Setting additional env vars from p4a_env_vars.txt
+04-13 13:00:15.563 26127 26159 I python  : Changing directory to the one provided by ANDROID_ARGUMENT
+04-13 13:00:15.563 26127 26159 I python  : /data/user/0/org.test.myapp/files/app
+04-13 13:00:15.563 26127 26159 I python  : Preparing to initialize python
+04-13 13:00:15.563 26127 26159 I python  : _python_bundle dir exists
+04-13 13:00:15.563 26127 26159 I python  : calculated paths to be...
+04-13 13:00:15.563 26127 26159 I python  : /data/user/0/org.test.myapp/files/app/_python_bundle/stdlib.zip:/data/user/0/org.test.myapp/files/app/_python_bundle/modules
+04-13 13:00:15.563 26127 26159 I python  : set wchar paths...
+04-13 13:00:15.576   598   598 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+04-13 13:00:15.576 26127 26151 W Gralloc3: mapper 3.x is not supported
+04-13 13:00:15.587 26127 26127 W SDLThread: type=1400 audit(0.0:70337): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/zlib.cpython-38.so" dev="mmcblk0p69" ino=1837895 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.594   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:15.594  1628  2118 I ActivityTaskManager: Displayed org.test.myapp/org.kivy.android.PythonActivity: +409ms
+04-13 13:00:15.595   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:15.600 26127 26127 V SDL     : onWindowFocusChanged(): true
+04-13 13:00:15.625 26127 26159 I python  : Initialized python
+04-13 13:00:15.625 26127 26159 I python  : AND: Init threads
+04-13 13:00:15.626 26127 26159 I python  : testing python print redirection
+04-13 13:00:15.627 26127 26159 I python  : Android path ['.', '/data/user/0/org.test.myapp/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.test.myapp/files/app/_python_bundle/modules', '/data/user/0/org.test.myapp/files/app/_python_bundle/site-packages']
+04-13 13:00:15.627 26127 26159 I python  : os.environ is environ({'PATH': '/sbin:/system/sbin:/product/bin:/apex/com.android.runtime/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'ANDROID_RUNTIME_ROOT': '/apex/com.android.runtime', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'BOOTCLASSPATH': '/apex/com.android.runtime/javalib/core-oj.jar:/apex/com.android.runtime/javalib/core-libart.jar:/apex/com.android.runtime/javalib/okhttp.jar:/apex/com.android.runtime/javalib/bouncycastle.jar:/apex/com.android.runtime/javalib/apache-xml.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/android.test.base.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/WfdCommon.jar:/system/framework/qcom.fmradio.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.media/javalib/updatable-media.jar', 'DEX2OATBOOTCLASSPATH': '/apex/com.android.runtime/javalib/core-oj.jar:/apex/com.android.runtime/javalib/core-libart.jar:/apex/com.android.runtime/javalib/okhttp.jar:/apex/com.android.runtime/javalib/bouncycastle.jar:/apex/com.android.runtime/javalib/apache-xml.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/android.test.base.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/WfdCommon.jar:/system/framework/qcom.fmradio.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar:/system/framework/com.android.location.provider.jar', 'DOWNLOAD_CACHE': '/data/cache', 'ANDROID_SOCKET_zygote': '19', 'ANDROID_SOCKET_usap_pool_primary': '20', 'ANDROID_ENTRYPOINT': 'main.pyc', 'ANDROID_ARGUMENT': '/data/user/0/org.test.myapp/files/app', 'ANDROID_APP_PATH': '/data/user/0/org.test.myapp/files/app', 'ANDROID_PRIVATE': '/data/user/0/org.test.myapp/files', 'ANDROID_UNPACK': '/data/user/0/org.test.myapp/files/app', 'PYTHONHOME': '/data/user/0/org.test.myapp/files/app', 'PYTHONPATH': '/data/user/0/org.test.myapp/files/app:/data/user/0/org.test.myapp/files/app/lib', 'PYTHONOPTIMIZE': '2', 'P4A_BOOTSTRAP': 'SDL2', 'PYTHON_NAME': 'python', 'P4A_IS_WINDOWED': 'True', 'P4A_ORIENTATION': 'portrait', 'P4A_NUMERIC_VERSION': 'None', 'P4A_MINSDK': '21', 'LC_CTYPE': 'C.UTF-8'})
+04-13 13:00:15.627 26127 26159 I python  : Android kivy bootstrap done. __name__ is __main__
+04-13 13:00:15.627 26127 26159 I python  : AND: Ran string
+04-13 13:00:15.627 26127 26159 I python  : Run user program, change dir and execute entrypoint
+04-13 13:00:15.647 26127 26127 W SDLThread: type=1400 audit(0.0:70338): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/_heapq.cpython-38.so" dev="mmcblk0p69" ino=1837926 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.677 26127 26127 W SDLThread: type=1400 audit(0.0:70339): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/math.cpython-38.so" dev="mmcblk0p69" ino=1837932 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.687 26127 26127 W SDLThread: type=1400 audit(0.0:70340): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/_queue.cpython-38.so" dev="mmcblk0p69" ino=1837906 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.707 26127 26127 W SDLThread: type=1400 audit(0.0:70341): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/_bisect.cpython-38.so" dev="mmcblk0p69" ino=1837921 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.707 26127 26127 W SDLThread: type=1400 audit(0.0:70342): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules/_sha512.cpython-38.so" dev="mmcblk0p69" ino=1837923 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:15.727  1628  2112 D ActivityTrigger: ActivityTrigger activityStopTrigger 
+04-13 13:00:15.737   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:15.738   812   812 E Layer   : [Surface(name=AppWindowToken{a8e74c3 token=Token{6c5b872 ActivityRecord{f2c117d u0 org.test.myapp/org.kivy.android.PythonActivity t13525}}})/@0xfaeae17 - animation-leash#0] No local sync point found
+04-13 13:00:15.738   812   812 E Layer   : [Surface(name=AppWindowToken{33ed840 token=Token{b05b7c3 ActivityRecord{b542772 u0 com.android.launcher3/com.android.searchlauncher.SearchLauncher t13113}}})/@0xec6706d - animation-leash#0] No local sync point found
+04-13 13:00:15.748   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:15.753   598   598 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+04-13 13:00:15.755   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:15.765  1768 24199 I PBSessionCacheImpl: Deleted sessionId[7777332949386990] from persistence.
+04-13 13:00:15.767 26127 26159 I python  : [INFO   ] [Logger      ] Record log in /data/user/0/org.test.myapp/files/app/.kivy/logs/kivy_20-04-13_1.txt
+04-13 13:00:15.767 26127 26159 I python  : [INFO   ] [Kivy        ] v1.11.1
+04-13 13:00:15.767 26127 26159 I python  : [INFO   ] [Kivy        ] Installed at "/data/user/0/org.test.myapp/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+04-13 13:00:15.768 26127 26159 I python  : [INFO   ] [Python      ] v3.8.1 (default, Apr 12 2020, 14:37:15) 
+04-13 13:00:15.768 26127 26159 I python  : [Clang 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec7462
+04-13 13:00:15.768  1768  1793 W SearchServiceCore: Abort, client detached.
+04-13 13:00:15.768 26127 26159 I python  : [INFO   ] [Python      ] Interpreter at ""
+04-13 13:00:15.769  1768  1793 I StreamController: cleanUpControllerScope(nowcards-15-289e68cd-d4ff)
+04-13 13:00:15.781  1768  1793 I MicroDetectionState: Should stop hotword detection immediately - false
+04-13 13:00:16.308  1628  2119 D CompatibilityInfo: mCompatibilityFlags - 0
+04-13 13:00:16.308  1628  2119 D CompatibilityInfo: applicationDensity - 408
+04-13 13:00:16.308  1628  2119 D CompatibilityInfo: applicationScale - 1.0
+04-13 13:00:16.405 26127 26159 E linker  : library "/system/lib/libc.so" ("/apex/com.android.runtime/lib/bionic/libc.so") needed or dlopened by "/data/data/org.test.myapp/files/app/_python_bundle/modules/_ctypes.cpython-38.so" is not accessible for the namespace: [name="(default)", ld_library_paths="", default_library_paths="/system/lib64:/system/product/lib64", permitted_paths="/system/lib64/drm:/system/lib64/extractors:/system/lib64/hw:/system/product/lib64:/system/framework:/system/app:/system/priv-app:/vendor/framework:/vendor/app:/vendor/priv-app:/system/vendor/framework:/system/vendor/app:/system/vendor/priv-app:/odm/framework:/odm/app:/odm/priv-app:/oem/app:/system/product/framework:/system/product/app:/system/product/priv-app:/data:/mnt/expand:/apex/com.android.runtime/lib64/bionic:/system/lib64/bootstrap"]
+04-13 13:00:16.417 26127 26159 I python  : [INFO   ] [Factory     ] 184 symbols loaded
+04-13 13:00:16.667 26127 26127 W SDLThread: type=1400 audit(0.0:70369): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/site-packages/kivy/core/image/_img_sdl2.so" dev="mmcblk0p69" ino=1837684 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:16.680 26127 26159 I python  : [INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+04-13 13:00:16.677 26127 26127 W SDLThread: type=1400 audit(0.0:70370): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/site-packages/kivy/graphics/fbo.so" dev="mmcblk0p69" ino=1837609 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:16.677 26127 26127 W SDLThread: type=1400 audit(0.0:70371): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/site-packages/kivy/graphics/context.so" dev="mmcblk0p69" ino=1837616 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:16.677 26127 26127 W SDLThread: type=1400 audit(0.0:70372): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/site-packages/kivy/graphics/stencil_instructions.so" dev="mmcblk0p69" ino=1837624 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:16.677 26127 26127 W SDLThread: type=1400 audit(0.0:70373): avc: granted { execute } for path="/data/data/org.test.myapp/files/app/_python_bundle/site-packages/kivy/graphics/opengl.so" dev="mmcblk0p69" ino=1837620 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file
+04-13 13:00:16.713 26127 26159 I python  : [INFO   ] [Audio       ] Providers: audio_sdl2 (audio_ffpyplayer ignored)
+04-13 13:00:17.034 26127 26159 I python  : ['detection_out']
+04-13 13:00:17.064 26127 26159 I python  : [INFO   ] [Window      ] Provider: sdl2
+04-13 13:00:17.084 26127 26159 E libEGL  : validate_display:91 error 3008 (EGL_BAD_DISPLAY)
+04-13 13:00:17.084 26127 26159 V SDL     : setOrientation() orientation=-1 width=800 height=600 resizable=true hint=
+04-13 13:00:17.089 26127 26159 I python  : [INFO   ] [GL          ] Using the "OpenGL ES 2" graphics system
+04-13 13:00:17.090 26127 26159 I python  : [INFO   ] [GL          ] Backend used <sdl2>
+04-13 13:00:17.091 26127 26159 I python  : [INFO   ] [GL          ] OpenGL version <b'OpenGL ES 3.2 V@415.0 (GIT@f2ab992, I401605978b, 1569657027) (Date:09/28/19)'>
+04-13 13:00:17.091 26127 26159 I python  : [INFO   ] [GL          ] OpenGL vendor <b'Qualcomm'>
+04-13 13:00:17.092 26127 26159 I python  : [INFO   ] [GL          ] OpenGL renderer <b'Adreno (TM) 512'>
+04-13 13:00:17.092 26127 26159 I python  : [INFO   ] [GL          ] OpenGL parsed version: 3, 2
+04-13 13:00:17.092 26127 26159 I python  : [INFO   ] [GL          ] Texture max size <16384>
+04-13 13:00:17.093 26127 26159 I python  : [INFO   ] [GL          ] Texture max units <16>
+04-13 13:00:17.131 26127 26159 I python  : [INFO   ] [Window      ] auto add sdl2 input provider
+04-13 13:00:17.132 26127 26159 I python  : [INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+04-13 13:00:17.135 26127 26159 I python  : [WARNING] [Base        ] Unknown <android> provider
+04-13 13:00:17.135 26127 26159 I python  : [INFO   ] [Base        ] Start application main loop
+04-13 13:00:17.136 25515 25515 I GH.ConnLoggerV2: Stopped session c9a51195-dbc7-4a88-9c70-7e44e864ef89
+04-13 13:00:17.137 25515 25558 D GH.ConnLoggerV2: Session c9a51195-dbc7-4a88-9c70-7e44e864ef89, event 2, SESSION_STOPPED, at 682600970
+04-13 13:00:17.138 26127 26159 I python  : [INFO   ] [Base        ] Leaving application in progress...
+04-13 13:00:17.138 26127 26159 I python  :  Traceback (most recent call last):
+04-13 13:00:17.138 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/app/main.py", line 101, in <module>
+04-13 13:00:17.139 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/app.py", line 855, in run
+04-13 13:00:17.139 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/base.py", line 504, in runTouchApp
+04-13 13:00:17.140 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/core/window/window_sdl2.py", line 747, in mainloop
+04-13 13:00:17.141 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/core/window/window_sdl2.py", line 479, in _mainloop
+04-13 13:00:17.141 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/base.py", line 339, in idle
+04-13 13:00:17.142 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/platform/build-arm64-v8a/build/python-installs/myapp/kivy/clock.py", line 591, in tick
+04-13 13:00:17.143 26127 26159 I python  :    File "kivy/_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+04-13 13:00:17.143 26127 26159 I python  :    File "kivy/_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+04-13 13:00:17.144 26127 26159 I python  :    File "kivy/_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+04-13 13:00:17.144 26127 26159 I python  :    File "kivy/_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+04-13 13:00:17.145 26127 26159 I python  :    File "/home/abzal/Desktop/npt/.buildozer/android/app/main.py", line 41, in update
+04-13 13:00:17.146 26127 26159 I python  :  AttributeError: 'NoneType' object has no attribute 'shape'
+04-13 13:00:17.146 26127 26159 I python  : Python for android ended.
+04-13 13:00:17.151   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:17.372  1628  2186 W InputDispatcher: channel 'cc613a5 org.test.myapp/org.kivy.android.PythonActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+04-13 13:00:17.372  1628  2186 E InputDispatcher: channel 'cc613a5 org.test.myapp/org.kivy.android.PythonActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+04-13 13:00:17.373  1628  4144 I ActivityManager: Process org.test.myapp (pid 26127) has died: fore TOP 
+04-13 13:00:17.373  1628  2544 I WindowManager: WIN DEATH: Window{cc613a5 u0 org.test.myapp/org.kivy.android.PythonActivity}
+04-13 13:00:17.373  1628  2544 W InputDispatcher: Attempted to unregister already unregistered input channel 'cc613a5 org.test.myapp/org.kivy.android.PythonActivity (server)'
+04-13 13:00:17.374   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:17.376   726   726 I Zygote  : Process 26127 exited cleanly (255)
+04-13 13:00:17.377   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:17.378  1628  4144 W ActivityTaskManager: Force removing ActivityRecord{f2c117d u0 org.test.myapp/org.kivy.android.PythonActivity t13525}: app died, no saved state
+04-13 13:00:17.380  1628  2121 I libprocessgroup: Successfully killed process cgroup uid 10230 pid 26127 in 5ms
+04-13 13:00:17.386  1628  2112 W ActivityManager: setHasOverlayUi called on unknown pid: 26127
+04-13 13:00:17.387   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:17.387  1628 24059 E ANDR-PERF-JNI: UXEngine Trigger - Returning null
+04-13 13:00:17.396   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:17.400  4778  4778 D PredictionService: onRequestPredictionUpdate
+04-13 13:00:17.400  4778  4778 D PredictionService: update predictions
+04-13 13:00:17.400   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:17.401  1628  9171 D CompatibilityInfo: mCompatibilityFlags - 0
+04-13 13:00:17.401  1628  9171 D CompatibilityInfo: applicationDensity - 408
+04-13 13:00:17.401  1628  9171 D CompatibilityInfo: applicationScale - 1.0
+04-13 13:00:17.402   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:17.419  1768  1768 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+04-13 13:00:17.442  1768  1793 I StreamController: registerScope: nowcards-15-289e68cd-d4ff
+04-13 13:00:17.485  1768  1793 I MicroDetectionState: Should stop hotword detection immediately - false
+04-13 13:00:17.487  1768  1793 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+04-13 13:00:17.491  1768  1811 I MicroDataManager: isInitializing-false locale not changed-true model not changed-true
+04-13 13:00:17.491  1768  1811 I MicroDataManager: Already initialized, obtaining the hotword data immediately.
+04-13 13:00:17.494  1768 25855 I MicroRecognitionRunner: Starting detection.
+04-13 13:00:17.494  1768 25855 I InputStreamUtils: Using micInputStream
+04-13 13:00:17.496   764   880 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xed76b100) io_handle(6294) source(6) format 1
+04-13 13:00:17.496   764   880 W audio_hw_utils: audio_extn_utils_update_stream_input_app_type_cfg: App type could not be selected. Falling back to default
+04-13 13:00:17.496   809  3362 V AudioFlinger: openInput_l() openInputStream returned input 0x732d811760, devices 0x80000004, SamplingRate 16000, Format 0x1, Channels 0x10, flags 0, status 0 addr bottom
+04-13 13:00:17.497   809  3362 V AudioFlinger: openInput_l() created record thread: ID 6294 thread 0x731087e680
+04-13 13:00:17.497   809 26167 I AudioFlinger: AudioFlinger's thread 0x731087e680 tid=26167 ready to run
+04-13 13:00:17.498   764   880 D audio_hw_primary: in_standby: enter: stream (0xed76b100) usecase(20: audio-record)
+04-13 13:00:17.498   764   880 D audio_hw_primary: in_standby: enter: stream (0xed76b100) usecase(20: audio-record)
+04-13 13:00:17.499   809  3362 V AudioFlinger: createRecord() lSessionId: 15873 input 6294
+04-13 13:00:17.501   809  3362 V AudioFlinger: getOrphanEffectChain_l session 15873 index -2
+04-13 13:00:17.501   809 30605 V AudioFlinger: acquiring 15873 from 1768, for -1
+04-13 13:00:17.501   809 30605 V AudioFlinger:  added new entry for 15873
+04-13 13:00:17.503   809 30605 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10023, silenced:0)
+04-13 13:00:17.503   809 30605 I AudioFlinger: create audiotrack for com.google.android.googlequicksearchbox  uid 10023
+04-13 13:00:17.505   764   880 D audio_hw_primary: in_set_parameters: enter: kvpairs=bottom=;input_source=6;routing=-2147483644
+04-13 13:00:17.506  1628  4194 I AudioService.RecordingActivityMonitor: rec update riid:16439 uid:10023 session:15873 src:HOTWORD pack:com.google.android.googlequicksearchbox
+04-13 13:00:17.506   809  2168 I SoundTriggerHwService::Module: onCallbackEvent no clients
+04-13 13:00:17.507   764 26168 D audio_hw_primary: start_input_stream: enter: stream(0xed76b100)usecase(20: audio-record)
+04-13 13:00:17.508   764 26168 D audio_hw_primary: select_devices for use case (audio-record)
+04-13 13:00:17.508   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 enter sensor_activated:0 hw_port_enabled:0
+04-13 13:00:17.508   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 select_devices exit usecase[#0]:(20, audio-record) in_dev:(0, ) out_dv:(0, )
+04-13 13:00:17.508   764 26168 D ultrasound_extn: ultrasound_select_devices_pre ultrasound_enabled:0 usecase(audio-record), devices:-2147483644 in_snd_device(177, voice-rec-mic), out_snd_device(0, )
+04-13 13:00:17.508   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 enter sensor_activated:0 hw_port_enabled:0
+04-13 13:00:17.508   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 select_devices_pre usecase[#0]:(20, audio-record) in_dev:(0, ) out_dv:(0, )
+04-13 13:00:17.508   764 26168 I msm8974_platform: platform_check_and_set_capture_codec_backend_cfg:txbecf: afe: bitwidth 16, samplerate 16000, channel 1 format 1, backend_idx 7 usecase = 20 device (voice-rec-mic)
+04-13 13:00:17.508   764 26168 I msm8974_platform: platform_check_capture_codec_backend_cfg:txbecf: afe: Codec selected backend: 7 current bit width: 16 and sample rate: 16000, channels 1 format 1
+04-13 13:00:17.508   764 26168 I msm8974_platform: platform_check_capture_codec_backend_cfg:txbecf: afe: current backend bit_width 16 sample_rate 48000 channels 1, format 0
+04-13 13:00:17.508   764 26168 I msm8974_platform: platform_check_capture_codec_backend_cfg:txbecf: afe: Codec backend needs to be updated. new bit width: 16 new sample rate: 48000 new channel: 1 new format: 1
+04-13 13:00:17.508  1768  1793 I MicroDetectionWorker: onReady
+04-13 13:00:17.508   764 26168 I msm8974_platform: platform_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 1 format 1, backend_idx 7 device (voice-rec-mic)
+04-13 13:00:17.508   764 26168 D audio_hw_primary: check_usecases_capture_codec_backend:becf: force routing 0
+04-13 13:00:17.508   764 26168 D ultrasound_extn: ultrasound_backend_match ultrasound not running
+04-13 13:00:17.508   764 26168 E msm8974_platform: platform_get_snd_device_name_extn: device_name=,snd_device=177, device_table[snd_device]=voice-rec-mic
+04-13 13:00:17.508   764 26168 D hardware_info: hw_info_append_hw_type : device_name = voice-rec-mic
+04-13 13:00:17.508   764 26168 D msm8974_platform: platform_split_snd_device: snd_device(177) num devices(0) new_snd_devices(0)
+04-13 13:00:17.508   764 26168 D audio_hw_primary: enable_snd_device: snd_device(177: voice-rec-mic)
+04-13 13:00:17.508   764 26168 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0xb1 of type 1 for Event 1, with Raise=1
+04-13 13:00:17.508   764 26168 I sound_trigger_platform: platform_stdev_check_and_update_concurrency: Received DEVICE event, event type 1
+04-13 13:00:17.508   764 26168 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: dedicated path 0, reset backend 1, tx 1, rx 0,concurrency session not allowed
+04-13 13:00:17.508   764 26168 D audio_route: Apply path: voice-rec-mic
+04-13 13:00:17.508   764 26168 E audio_route: Path: voice-rec-mic, length: 4
+04-13 13:00:17.508   764 26168 E audio_route:   id=0: ctl=ADC1 Volume
+04-13 13:00:17.508   764 26168 E audio_route:     id=0 value=6
+04-13 13:00:17.508   764 26168 E audio_route:   id=1: ctl=DEC1 MUX
+04-13 13:00:17.508   764 26168 E audio_route:     id=0 value=1
+04-13 13:00:17.508   764 26168 E audio_route:   id=2: ctl=ADC1_INP1 Switch
+04-13 13:00:17.509   764 26168 E audio_route:     id=0 value=1
+04-13 13:00:17.509   764 26168 E audio_route:   id=3: ctl=IIR1 INP1 MUX
+04-13 13:00:17.509   764 26168 E audio_route:     id=0 value=1
+04-13 13:00:17.512   764 26168 W audio_hw_utils: audio_extn_utils_update_stream_input_app_type_cfg: App type could not be selected. Falling back to default
+04-13 13:00:17.512   764 26168 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_info->id 20 of type 1 for Event 3, with Raise=1
+04-13 13:00:17.512   764 26168 D soundtrigger: audio_extn_sound_trigger_update_stream_status: send event 13: usecase id 20, type 1
+04-13 13:00:17.512   764 26168 I sound_trigger_platform: platform_stdev_check_and_update_concurrency: Received STREAM event, event type 13, usecase type 1
+04-13 13:00:17.512   764 26168 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: dedicated path 0, reset backend 1, tx 1, rx 0,concurrency session not allowed
+04-13 13:00:17.512   764 26168 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->in_snd_device voice-rec-mic
+04-13 13:00:17.512   764 26168 D msm8974_platform: platform_split_snd_device: snd_device(177) num devices(0) new_snd_devices(0)
+04-13 13:00:17.512   764 26168 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+04-13 13:00:17.512   764 26168 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69938, acdb_dev_id 4, sample_rate 48000, snd_device_be_idx 134
+04-13 13:00:17.512   764 26168 D msm8974_platform: platform_split_snd_device: snd_device(177) num devices(1) new_snd_devices(0)
+04-13 13:00:17.512   764 26168 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> send_asm_topology
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> send_adm_topology
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> send_audtable
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> send_audvoltable
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+04-13 13:00:17.512   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+04-13 13:00:17.513   764 26168 D         : Failed to fetch the lookup information of the device 00000004 
+04-13 13:00:17.513   764 26168 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> send_audstrmtable
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> send_afe_topology
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 4, Topology Id 112fb
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> send_afe_cal
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+04-13 13:00:17.513   764 26168 D         : Failed to fetch the lookup information of the device 00000004 
+04-13 13:00:17.513   764 26168 E ACDB-LOADER: Error: ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE Returned = -19
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+04-13 13:00:17.513   764 26168 D         : Failed to fetch the lookup information of the device 00000004 
+04-13 13:00:17.513   764 26168 E ACDB-LOADER: Error: ACDB AFE returned = -19
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+04-13 13:00:17.513   764 26168 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+04-13 13:00:17.513   764 26168 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record
+04-13 13:00:17.513   764 26168 D audio_route: Apply path: audio-record
+04-13 13:00:17.513   764 26168 E audio_route: Path: audio-record, length: 1
+04-13 13:00:17.513   764 26168 E audio_route:   id=0: ctl=MultiMedia1 Mixer INT3_MI2S_TX
+04-13 13:00:17.513   764 26168 E audio_route:     id=0 value=1
+04-13 13:00:17.513   764 26168 D ultrasound_extn: ultrasound_select_devices_post: enter: engine_suspended: 0, headphone_is_active: 0, headset_mic_is_active: 0
+04-13 13:00:17.513   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 enter sensor_activated:0 hw_port_enabled:0
+04-13 13:00:17.513   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 select_devices_post usecase[#0]:(20, audio-record) in_dev:(177, voice-rec-mic) out_dv:(0, )
+04-13 13:00:17.513   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 enter sensor_activated:0 hw_port_enabled:0
+04-13 13:00:17.513   764 26168 D ultrasound_extn: dump_usecase_list: SDM660 select_devices exit usecase[#0]:(20, audio-record) in_dev:(177, voice-rec-mic) out_dv:(0, )
+04-13 13:00:17.513   764 26168 D audio_hw_primary: select_devices: done
+04-13 13:00:17.593   764 26168 D audio_hw_primary: start_input_stream: exit
+04-13 13:00:17.879   809  3362 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10023, silenced:0)
+04-13 13:00:17.879   809  3362 I AudioFlinger: create audiotrack for com.google.android.googlequicksearchbox  uid 10023
+04-13 13:00:17.879   809  3362 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10023, silenced:0)
+04-13 13:00:17.880   809  3362 I AudioFlinger: create audiotrack for com.google.android.googlequicksearchbox  uid 10023
+04-13 13:00:18.238  2246  2246 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+04-13 13:00:18.241  2246  2246 D KeyguardUpdateMonitor: handleBatteryUpdate
+04-13 13:00:18.247 26912 26912 D skia    : --- Failed to create image decoder with message 'unimplemented'
+04-13 13:00:18.252 26912 26912 D skia    : --- Failed to create image decoder with message 'unimplemented'
+04-13 13:00:18.491  1628  2119 D CompatibilityInfo: mCompatibilityFlags - 0
+04-13 13:00:18.491  1628  2119 D CompatibilityInfo: applicationDensity - 408
+04-13 13:00:18.491  1628  2119 D CompatibilityInfo: applicationScale - 1.0
+04-13 13:00:19.062   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:19.252  4046  4374 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.destroy():239 destroy() : sManager is null? true
+04-13 13:00:19.748   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:20.698   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:21.579 26912 26912 D skia    : --- Failed to create image decoder with message 'unimplemented'
+04-13 13:00:21.757  1628  2544 I ActivityManager: Killing 22156:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a116i148 (adj 999): empty #31
+04-13 13:00:21.758  1628  2121 W libprocessgroup: Failed to open process cgroup uid 99148 pid 22156: Permission denied
+04-13 13:00:21.758  1628  2121 E libprocessgroup: Error encountered killing process cgroup uid 99148 pid 22156: Permission denied
+04-13 13:00:21.758   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:21.770   598   598 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device manifest.
+04-13 13:00:21.771 26994 26994 I Zygote  : Process 22156 exited due to signal 9 (Killed)
+04-13 13:00:21.772   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:21.773  1628  4144 W ActivityManager: Scheduling restart of crashed service com.vkmp3mod.android/org.chromium.content.app.SandboxedProcessService0:0 in 1000ms
+04-13 13:00:21.793 22026 22150 W cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=0
+04-13 13:00:21.794   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:24.813   598   598 I chatty  : uid=1000(system) hwservicemanage identical 18 lines
+04-13 13:00:24.933   598   598 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.servicetracker::IServicetracker sid=u:r:system_server:s0 pid=1628 scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_hwservice:s0 tclass=hwservice_manager permissive=0
+04-13 13:00:26.250   727   727 D Zygote  : Forked child process 26173
+04-13 13:00:26.257  1628  2120 I ActivityManager: Start proc 26173:com.android.chrome/u0a84 for broadcast {com.android.chrome/com.google.android.gms.gcm.GcmReceiver}
+04-13 13:00:26.835 26173 26173 E .android.chrom: Not starting debugger since process cannot load the jdwp agent.
